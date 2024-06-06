@@ -1,0 +1,37 @@
+{
+    "fruit": "Apple",
+    "size": "Large",
+    "color": "Red"
+}
+
+
+By.xpath("//*[contains(text(),"Example" and contains(text(),'Example2'))]")
+
+
+
+
+Public class Polymor{
+
+Public void polyExaple(String string1,String string2){
+By.xpath("//*[contains(text(),+string1+ and contains(text(),+string2+))]")
+
+}
+
+
+
+
+}
+
+
+
+
+
+new Polymor().polyExample("Example1","Example2");
+
+
+new Polymor().polyExample("TB1","TB2");
+
+
+
+
+
